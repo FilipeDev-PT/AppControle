@@ -1,0 +1,84 @@
+.DivTop{
+    display: flex;
+    align-items: center;
+    position: relative;
+    justify-content: space-between;
+    width: 95.72%;
+    height: 7%;
+    background-color: var(--colorPrimaryBlue);
+    box-shadow: 20px 0px 20px rgba(0, 0, 0, 0.10);
+    padding: 0px 50px 0px 20px;
+}
+
+.work{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+    min-width: 550px;
+
+    & input{
+        background-color: var(--colorPrimaryWhite);
+        border-radius: 5px;
+        padding-left: 15px;
+        height: 80%;
+        width: 90%;
+        box-shadow: 2px 2px 50px rgba(0, 0, 0, 0.20);
+        color: black;
+        cursor: pointer;
+    }
+
+    & input::selection{
+        background-color: var(--colorPrimaryWhite);
+    }
+
+    & input:focus{
+        outline: none;
+    }
+
+    & .icon{
+        transform: rotate(90deg);
+        position: absolute;
+        right: 5%;
+        cursor: pointer;
+    }
+}
+
+.SelectWork{
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    min-width: 510px;
+    background-color: var(--colorPrimaryWhite);
+    box-shadow: 2px 2px 50px rgba(0, 0, 0, 0.20);
+    border-radius: 0px 0px 5px 5px;
+    left: 40px;
+    top: 70%;
+    padding: 7px 0px;
+    z-index: 10;
+
+    .p_SeleckWork{
+        display: flex;
+        align-items: center;
+        color: var(--colorPrimaryLight);
+        padding: 10px;
+        font-size: .9em;
+        height: 15px;
+        margin: .5% 0px .5% 0px;
+        cursor: pointer;
+    }
+
+    .p_SeleckWork:hover{
+        background-color: var(--colorSecundaryLight);
+        color: var(--colorPrimaryBlue);
+        font-size: .95em;
+    }
+}
+
+.users{
+    color: var(--colorPrimaryWhite);
+    font-size: .9em;
+    letter-spacing: .07em;
+    opacity: .8;
+}

@@ -1,0 +1,65 @@
+.divSide{
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    align-items: center;
+
+    & li{
+        list-style-type: none;
+    }
+}
+
+.ContentTitle{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.ButtonIcon{
+    display: flex;
+    gap: 10px;
+
+    .iconDescriptions{
+        font-size: 1.1em;
+    }
+}
+
+.butSide{
+    background-color: #00000000;
+    color: var(--colorPrimaryLight);
+    font-size: .9em;
+    font-weight: normal;
+    letter-spacing: .07em;
+}
+
+.i_Side{
+    font-size: 1em;
+    width: 30px;
+    color: var(--colorPrimaryLight);
+}
+
+.list{
+    display: none;
+    flex-direction: column;
+    padding: 20px 0px 10px 20px;
+    gap: 20px;
+    width: 90%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.teste{
+    flex-direction: column;
+}
+
+.select:hover{
+    color: var(--colorPrimaryBlue);
+    cursor: pointer;
+    scale: 1.02;
+}
+
+.select:hover .butSide, .select:hover .i_Side{
+    color: var(--colorPrimaryBlue);
+    cursor: pointer;
+    scale: 1.02;
+}

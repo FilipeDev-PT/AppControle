@@ -1,0 +1,213 @@
+.descriptionScreen{
+  display: flex;
+  position: fixed;
+  top: 11%;
+  right: 3%;
+}
+
+.divButtonsFilter{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.buttonFilter{
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding: 10px;
+  background-color: var(--colorPrimaryBlue);
+  border-radius: 5px;
+  margin-left: 5px;
+  cursor: pointer;
+}
+
+.buttonFilter:hover{
+  background-color: var(--colorSecundaryBlue);
+}
+
+.Filters{
+  display: none;
+  position: relative;
+  align-items: center;
+  gap: 10px;
+  margin: 20px auto;
+}
+
+.selectValue{
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  max-height: 500px;
+  overflow-y: auto;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  top: 230px;
+  margin-left: 110px;
+  width: 70.3%;
+  background-color: var(--colorPrimaryWhite);
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px var(--colorInput);
+}
+
+.itemSelect{
+  display: flex;
+  font-size: .95em;
+  align-items: center;
+  padding: 5px 0px 5px 20px;
+}
+
+.itemSelect:hover{
+  background-color: var(--colorSecundaryLight);
+  cursor: pointer;
+}
+
+.TableOrc{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.CabecalhoOrc{
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  border-top: 3px solid rgba(0, 0, 0, 0.411);
+  font-size: 1.1em;
+}
+
+.ContentOrc{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  overflow-y: auto;
+  max-height: 570px;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+.ContentOrcItens{
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  border-top: 3px solid rgba(0, 0, 0, 0.192);
+  padding: 5px 0px;
+}
+
+.Input{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 3%;
+}
+.inputs{
+  width: 15px;
+  height: 15px;
+}
+.Serviço{
+  display: flex;
+  justify-content: center;
+  width: 5%;
+  text-align: center;
+  align-items: center;
+}
+.Descrição{
+  display: flex;
+  width: 50%;
+  align-items: center;
+}
+.QuantidadePlan{
+  display: flex;
+  justify-content: center;
+  width: 10%;
+  text-align: center;
+  align-items: center;
+}
+.QuantidadeMed{
+  display: flex;
+  justify-content: center;
+  width: 10%;
+  text-align: center;
+  align-items: center;
+}
+.QuantidadeRest{
+  display: flex;
+  justify-content: center;
+  width: 10%;
+  text-align: center;
+  align-items: center;
+}
+
+.iconAcomp:hover{
+  cursor: pointer;
+}
+
+.divContratadoFooter{
+  display: flex;
+  position: absolute;
+  align-items: center;
+  justify-content: space-around;
+  bottom: 3%;
+  width: 95%;
+}
+
+.contentContrato{
+  display: flex;
+  flex-direction: column;
+  margin: 0px 0px 0px -24.3%;
+  position: absolute;
+  width: 61%;
+  bottom: 105%;
+  background-color: var(--colorPrimaryWhite);
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px var(--colorInput);
+}
+
+.filteresContrato{
+  display: flex;
+  width: 100%;
+  align-items: center;
+  gap: 10px;
+}
+
+.inputNumberValue{
+  margin-left: 2%;
+}
+
+.inputNumberPercent, .inputNumberValue{
+  width: 6.5%;
+}
+
+.itemSelectContrato{
+  display: flex;
+  width: 99%;
+  padding: 5px 0px 5px 15px;
+  font-size: .95em;
+}
+
+.itemSelectContrato:hover{
+  cursor:pointer;
+  background-color: var(--colorSecundaryLight);
+}
+
+.AddMed{
+  background-color: var(--colorPrimaryBlue);
+  border-radius: 5px;
+  padding: 12px 7px;
+}
+
+.AtualizedDados{
+  background-color: var(--colorPrimaryBlue);
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.AtualizedDados:hover{
+  cursor: pointer;
+  background-color: var(--colorSecundaryBlue);
+}

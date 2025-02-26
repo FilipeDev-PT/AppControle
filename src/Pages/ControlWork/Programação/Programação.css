@@ -1,0 +1,12 @@
+.divContentProgram{
+  display: flex;
+  gap: 20px;
+}
+
+.buttonGeraPDF{
+  display: flex;
+  padding: 10px;
+  background-color: var(--colorPrimaryBlue);
+  border-radius: 5px;
+  cursor: pointer;
+}

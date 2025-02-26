@@ -1,0 +1,15 @@
+input, textarea{
+    font-family: Roboto;
+    background-color: var(--colorPrimaryWhite);
+    border: 2px solid var(--colorInput);
+    box-shadow: 0px 0px 5px var(--colorInput);
+    border-radius: 5px;
+    height: 35px;
+    color: var(--colorPrimaryLight);
+    padding-left: 15px;
+    resize: none;
+}
+
+textarea{
+    padding-top: 7px;
+}

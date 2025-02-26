@@ -1,0 +1,69 @@
+.ItenListHeader{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top: 3px solid rgba(0, 0, 0, 0.411);
+  border-bottom: 3px rgba(0, 0, 0, 0.192);
+  margin-top: 30px;
+
+  & div{
+    padding: 5px 20px;
+  }
+}
+
+.ContentMap{
+  display: flex;
+  border: 2px solid lime;
+}
+
+.ItenList{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top: 3px solid rgba(0, 0, 0, 0.192);
+
+  & div{
+    font-size: .9em;
+    color: rgba(0, 0, 0, 0.637);
+    padding: 5px 20px;
+  }
+}
+
+.indice{
+  width: 10%;
+}
+
+.name{
+  width: 25%;
+}
+
+.email{
+  width: 30%;
+}
+
+.usergroup{
+  width: 25%;
+}
+
+.qtd{
+  width: 5%;
+}
+
+.cnpjSu{
+  width: 10%;
+}
+
+.icons{
+  display: flex;
+  width: 10%;
+  justify-content: space-evenly;
+  
+  & .icon{
+    font-size: 1.8em;
+    cursor: pointer;
+  }
+
+  & .icon:hover{
+    color: var(--colorPrimaryBlue);
+  }
+}

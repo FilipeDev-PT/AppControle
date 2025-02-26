@@ -1,0 +1,12 @@
+.ContentUser{
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+  max-height: 77%;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.ContentTable{
+  padding: 30px 0px;
+}

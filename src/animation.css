@@ -1,0 +1,45 @@
+@keyframes animationActiveIcon{
+    0%{
+        transform: rotate(0deg)
+    }
+    100%{
+        transform: rotate(90deg)
+    }
+}
+
+@keyframes animationDesactiveIcon{
+    0%{
+        transform: rotate(90deg)
+    }
+    70%{
+        transform: rotate(0deg)
+    }
+}
+
+@keyframes animationActiveDiv{
+    from{ opacity: 0; }
+    to{ opacity: 1; }
+}
+
+@keyframes animationDesactiveDiv{
+    from{ opacity: 1; }
+    to{ opacity: 0; }
+}
+
+.animationActiveDiv{
+    animation: animationActiveDiv .5s linear ;
+}
+
+.animationDesactiveDiv{
+    animation: animationDesactiveDiv .5s linear ;
+}
+
+.animationActiveIcon{
+    animation: animationActiveIcon .3s linear;
+    transform: rotate(90deg)
+}
+
+.animationDesactiveIcon{
+    animation: animationDesactiveIcon .3s linear ;
+    transform: rotate(0deg)
+}

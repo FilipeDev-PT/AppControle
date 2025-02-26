@@ -1,0 +1,116 @@
+.Teste{
+  display: flex;
+  gap: 20px;
+
+  & button{
+    padding: 20px;
+  }
+}
+
+.selectValueMed{
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  max-height: 500px;
+  overflow-y: auto;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  top: 230px;
+  margin-left: 300px;
+  width: 61.7%;
+  background-color: var(--colorPrimaryWhite);
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px var(--colorInput);
+}
+
+input[type="file"]{
+  display: flex;
+}
+
+.ContentMed{
+  display: flex;
+  flex-direction: column;
+  max-height: 570px;
+  overflow-y: auto;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  font-size: .8em;
+}
+
+.CodCont{
+  display: flex;
+  justify-content: center;
+  width: 10%;
+  text-align: center;
+  align-items: center;
+  font-size: .8em;
+}
+.DescCont{
+  display: flex;
+  justify-content: start;
+  width: 30%;
+  text-align: start;
+  align-items: start;
+  font-size: .8em;
+}
+.CodServ{
+  display: flex;
+  justify-content: center;
+  width: 6%;
+  text-align: center;
+  align-items: center;
+  font-size: .8em;
+}
+.ItemServ{
+  display: flex;
+  justify-content: center;
+  width: 7%;
+  max-width: 10%;
+  text-align: center;
+  align-items: center;
+  font-size: .8em;
+}
+.DescServ{
+  display: flex;
+  justify-content: start;
+  width: 30%;
+  max-width: 30%;
+  text-align: start;
+  align-items: start;
+  overflow-y: hidden;
+  font-size: .8em;
+}
+.QtdMedida{
+  display: flex;
+  justify-content: center;
+  width: 10%;
+  text-align: center;
+  align-items: center;
+  font-size: .8em;
+}
+
+.ButtonExport{
+  display: flex;
+  position: fixed;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  right: 3%;
+  bottom: 5%;
+}
+
+.buttonExportfilesPdf, .buttonExportfilesExcel{
+  padding: 10px 15px;
+  font-weight: 700;
+  border-radius: 5px;
+  background-color: var(--colorPrimaryBlue);
+  cursor: pointer;
+}
+
+.buttonExportfilesPdf:hover, .buttonExportfilesExcel:hover{
+background-color: var(--colorSecundaryBlue);
+}
+
+.medicoes{
+  max-height: 20px;
+}

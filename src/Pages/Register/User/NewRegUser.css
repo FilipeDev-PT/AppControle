@@ -1,0 +1,139 @@
+
+.divs{
+  display: flex;
+  flex-direction: column;
+}
+
+.divCod{
+  width: 25%;
+}
+
+#inputCod, #inputGroup, .inputSit{
+  display: flex;
+  align-items: center;
+  background-color: var(--colorPrimaryWhite);
+  border: 2px solid var(--colorInput);
+  box-shadow: 0px 0px 5px var(--colorInput);
+  color: var(--colorPrimaryLight);
+  border-radius: 5px;
+  padding-left: 10px;
+  height: 35px;
+}
+
+.divDesc{
+  width: 74%;
+}
+.divPla{
+  width: 50%;
+}
+.divNei{
+  width: 30%;
+}
+
+.divNum{
+  width: 19%;
+}
+
+#inputNum{
+  padding-right: 10px;
+}
+
+.divCit{
+  width: 50%;
+}
+.divEst{
+  width: 30%;
+}
+.divCEP{
+  width: 19%;
+}
+.divIni{
+  width: 15%;
+}
+.divEnd{
+  width: 15%;
+}
+
+.divCNPJ{
+  width: 25%;
+}
+
+#inputIni, #inputEnd{
+  font-size: 1.2em;
+}
+
+.divSit{
+  position: relative;
+  cursor: pointer;
+}
+
+.inputSit{
+  width: 200%;
+  font-size: .9em;
+}
+
+.ContentSit{
+  flex-direction: column;
+  width: 205%;
+  border-bottom-left-radius: 5px;
+  box-shadow: 0px 0px 5px var(--colorInput);
+  border: 2px solid var(--colorInput);
+  border-bottom-right-radius: 5px;
+  background-color: var(--colorPrimaryWhite);
+  position: absolute;
+  top: 100%;
+}
+
+.divEmail{
+  width: 50%;
+}
+
+.divPass{
+  width: 50%;
+}
+
+.PErrorEmail{
+  font-size: .95em;
+  color: red;
+  margin-left: 1%;
+}
+
+.PermissionsDivs{
+  display: flex;
+  width: 70%;
+  margin-top: 50px;
+
+  .PermissionUserWork{
+    margin-left: 200px;
+
+    & h4{
+      margin-bottom: 10px;
+    }
+
+    & div{
+      display: flex;
+      align-items: center;
+      gap: 10px;
+
+      & input{
+        height: 15px;
+      }
+    }
+  }
+
+  .PermissionUserPermission{
+    & h4{
+      margin-bottom: 10px;
+    }
+
+    & div{
+      display: flex;
+      align-items: center;
+      gap: 10px;
+
+      & input{
+        height: 15px;
+      }
+    }
+  }
+}
